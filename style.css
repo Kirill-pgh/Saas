@@ -1616,6 +1616,10 @@ hr{
     padding-top: 24px;
 }
 
+.top_card_a{
+    text-decoration: none;
+}
+
 
 .top_card_title_p{
     color: var(--Dark-Blue, #232340);
@@ -1686,6 +1690,131 @@ hr{
 .section2{
     padding-bottom: 161px;
 }
+
+
+
+
+
+.section3_h1{
+    color: var(--Black, #25313C);
+    font-family: Lexend Deca;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    padding-bottom: 56px;
+}
+
+.top_card_author2{
+    display: flex;
+    padding: 0px 16px;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.section3_img{
+    padding-left: 99px;
+    padding-right: 99px;
+}
+
+
+.section3_h2{
+    color: rgba(37, 49, 60, 0.90);
+    font-family: Lexend Deca;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.top_card_author3{
+    display: flex;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.section3_comment{
+    padding-bottom: 160px; 
+}
+
+.author3_block{
+    padding-left: 24px;
+    display: block;
+}
+
+.avthor3_written{
+    color: var(--Soft-Violet, #C897E4);
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+
+
+.author3_name{
+    color: var(--Dark-Blue, #232340);
+    font-family: Lexend Deca;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 12px;
+}
+
+.avthor3_text{
+    color: rgba(35, 35, 64, 0.60);
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px; 
+    letter-spacing: 0.14px;
+    width: 336px;
+}
+
+.section3_comment_frame1{
+    display: flex;
+    align-items: center;
+}
+
+.section3_comment_h1{
+    color: var(--Dark-Blue, #232340);
+    font-family: Lexend Deca;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    padding-bottom: 48px;
+}
+
+.frame1_tetxarea{
+    padding-left: 16px;
+    border-radius: 4px;
+    border: 2px solid var(--Desaturated-Blue, #7676B2);
+    background: var(--Off-White, #F5F5F5);
+}
+
+.frame1_tetxarea_h1{
+    color: rgba(35, 35, 64, 0.90);
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px; 
+    letter-spacing: 0.14px;
+}
+
+.frame1_tetxarea_img{
+    padding-left: 675px;
+    padding-top: 183px;
+}
+
+
+.wrapper2{
+    margin-left: 198px;
+    margin-right: 198px;
+}
+
 
 
 
@@ -1889,6 +2018,48 @@ hr{
     .chats_block2_team_block2_activity_block2_day_img, .chats_block2_team_block2_activity_block2_day_info_h1, .chats_block2_team_block2_activity_block2_day_info_img, .chats_block2_team_block2_activity_block2_day_img2{
         display: none;
     }
+    .section{
+        padding-bottom: 96px;
+    }
+    .heading{
+        padding-bottom: 48px;
+    }
+    .cards_grid{
+        display: block;
+    }
+    .top_card{
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        box-shadow: 0px 12px 24px 0px rgb(84 104 231 / 24%);
+    }
+    .top_card_title_p, .author_name, .author_date{
+        font-size: 12px;
+    }
+    .section2{
+        padding-bottom: 120px;
+    }
+    .wrapper2{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .section3_h1{
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .section3_img{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .top_card_author3{
+        padding-bottom: 80px;
+    }
+    .avthor3_text{
+        width: 172px;
+    }
+    .frame1_tetxarea_img{
+        padding-left: 175px;
+        padding-top: 229px;
+    }
 }
 
 
@@ -2016,6 +2187,48 @@ hr{
     .chats_block2_team_block2_activity_block2_day_img, .chats_block2_team_block2_activity_block2_day_info_h1, .chats_block2_team_block2_activity_block2_day_info_img, .chats_block2_team_block2_activity_block2_day_img2{
         display: none;
     }
+    .section{
+        padding-bottom: 96px;
+    }
+    .heading{
+        padding-bottom: 48px;
+    }
+    .cards_grid{
+        display: block;
+    }
+    .top_card{
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        box-shadow: 0px 12px 24px 0px rgb(84 104 231 / 24%);
+    }
+    .top_card_title_p, .author_name, .author_date{
+        font-size: 12px;
+    }
+    .section2{
+        padding-bottom: 120px;
+    }
+    .wrapper2{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .section3_h1{
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .section3_img{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .top_card_author3{
+        padding-bottom: 80px;
+    }
+    .avthor3_text{
+        width: 172px;
+    }
+    .frame1_tetxarea_img{
+        padding-left: 175px;
+        padding-top: 229px;
+    }
 }
 
 
@@ -2142,6 +2355,45 @@ hr{
     .chats_block2_team_block2_activity_block2_day_img, .chats_block2_team_block2_activity_block2_day_info_h1, .chats_block2_team_block2_activity_block2_day_info_img, .chats_block2_team_block2_activity_block2_day_img2{
         display: none;
     }
+    .section{
+        padding-bottom: 96px;
+    }
+    .heading{
+        padding-bottom: 48px;
+    }
+    .cards_grid{
+        display: block;
+    }
+    .top_card{
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        box-shadow: 0px 12px 24px 0px rgb(84 104 231 / 24%);
+    }
+    .top_card_title_p, .author_name, .author_date{
+        font-size: 12px;
+    }
+    .section2{
+        padding-bottom: 120px;
+    }
+    .wrapper2{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .section3_h1{
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .section3_img{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .top_card_author3{
+        padding-bottom: 80px;
+    }
+    .frame1_tetxarea_img{
+        padding-left: 440px;
+        padding-top: 120px;
+    }
 }
 
 
@@ -2204,6 +2456,42 @@ hr{
     }
     .chats_block2_team_block2_activity_block2_day_img, .chats_block2_team_block2_activity_block2_day_info_h1, .chats_block2_team_block2_activity_block2_day_info_img, .chats_block2_team_block2_activity_block2_day_img2{
         display: none;
+    }
+    .heading{
+        padding-bottom: 48px;
+    }
+    .cards_grid{
+        grid-template-columns: repeat(6, 1fr);
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
+    }
+    .top_card{
+        padding-bottom: 20px;
+        box-shadow: 0px 12px 24px 0px rgb(84 104 231 / 24%);
+    }
+    .section2{
+        padding-bottom: 120px;
+    }
+
+
+    .wrapper2{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .section3_h1{
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .section3_img{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .top_card_author3{
+        padding-bottom: 80px;
+    }
+    .frame1_tetxarea_img{
+        padding-left: 510px;
+        padding-top: 130px;
     }
 }
 
