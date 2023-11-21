@@ -29,11 +29,11 @@
 						<a href="#" class="a2">Get Access</a>
 					</div>
 				</div>
-				<div class="header_burger burger">
-					<span class="burger_line burger_line_first"></span>
-					<span class="burger_line burger_line_second"></span>
-					<span class="burger_line burger_line_third"></span>
-				</div>
+				<div class="burger">
+		            <span></span>
+	            </div>
+
+
 			</div>
 	    </div>
 	</header>
@@ -684,19 +684,14 @@
 		</div>
 	</footer>
 
-
-
-
-
-
 	<!-- footer end -->
 
-
-
-
-
-<!-- <h1 class="hhh">Оставить заявку</h1> -->
-	
+	<script>
+		document.querySelector('.burger').addEventListener('click', function() {
+			this.classList.toggle('active');
+			document.querySelector('.header_info').classList.toggle('open');
+		})
+	</script>
 
 </body>
 </html>
