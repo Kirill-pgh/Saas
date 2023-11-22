@@ -1488,7 +1488,8 @@ hr{
 
 
 .info_arrows{
-    padding-left: 981px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
