@@ -702,6 +702,7 @@ hr{
 .chats_block2_team_block2_patient{
     display: flex;
     padding-bottom: 20px;
+    position: relative;
 }
 
 .chats_block2_team_block2_hiaction{
